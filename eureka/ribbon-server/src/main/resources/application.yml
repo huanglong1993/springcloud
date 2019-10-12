@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8077/eureka/
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ribbon-server
